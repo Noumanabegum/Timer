@@ -3,7 +3,7 @@
 
 ## Live preview : https://reactapp-timer.netlify.app/ 
 
-This is a simple timer application built with React that allows you to start and stop a timer.
+This is a simple timer application built with React that allows you to restart and stop a timer.
 
 ## Installation :
 To install this application, first clone this repository to your local machine. Then, navigate to the project directory and run the following command to install the necessary dependencies:
@@ -18,7 +18,7 @@ npm start
 
 This will start a development server that can be accessed by navigating to http://localhost:3000/ in your web browser.
 
-Once the application is running, you can use the timer by clicking on the "Start" button to start the timer, and the "Stop" button to stop it.
+Once the application is running, you can use the timer by clicking on the "Restart" button to restart the timer, and the "Stop" button to stop it.
 ## Customization :
 This application was built with React, so it can be easily customized to suit your needs. To modify the application, simply edit the files in the src/ directory.
 ## License
