@@ -25,3 +25,9 @@ This application was built with React, so it can be easily customized to suit yo
 
 This application is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license. See the LICENSE file for more information.
 
+## Give a star ⭐
+
+I hope you liked my project, if so please give a star for this repository.
+
+Thank you :)
+
