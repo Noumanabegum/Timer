@@ -27,7 +27,7 @@ This application is licensed under the [MIT](https://choosealicense.com/licenses
 
 ## Give a star ⭐
 
-I hope you liked my project, if so please give a star for this repository.
+I hope you liked this project, if so please give a star for this repository.
 
 Thank you :)
 
