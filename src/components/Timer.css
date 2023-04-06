@@ -1,0 +1,211 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.timer{
+    width: 100%;
+    height: 100vh;
+    background: #f2709c;  
+    background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+    background: linear-gradient(to right, #ff9472, #f2709c); 
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-top: 100px;
+}
+.timer_container{
+    background-color: white;
+    width: 20vw;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    position: relative;
+}
+.box{
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+}
+.stop,.restart{
+    display: inline-block;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    background: #fa2654;
+    padding: 13px 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.restart:hover{
+    color: black;
+    background: #ff9472;
+}
+.stop:hover{
+    color: black;
+    background: #ff9472;
+}
+.stop{
+    margin-left: 15px;
+}
+@media (max-width:991px){
+    
+    .timer{
+        width: 100%;
+        height: 100vh;
+        background: #f2709c;  
+        background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+        background: linear-gradient(to right, #ff9472, #f2709c); 
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        padding-top: 100px;
+    }
+    .timer_container{
+        background-color: white;
+        width: 20vw;
+        padding: 1rem 6rem;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+    }
+    .heading{
+        text-align: center;
+        font-size: 3rem;
+        position: relative;
+    }
+    .box{
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .stop,.restart{
+        display: inline-block;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 18px;
+        background: #fa2654;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .restart:hover{
+        color: black;
+        background: #ff9472;
+    }
+    .stop:hover{
+        color: black;
+        background: #ff9472;
+    }
+    .stop{
+        margin-left: 15px;
+    }
+}
+@media (max-width:768px){
+
+    .timer{
+        width: 100%;
+        height: 100vh;
+        background: #f2709c;  
+        background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+        background: linear-gradient(to right, #ff9472, #f2709c); 
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        padding-top: 100px;
+    }
+    .timer_container{
+        background-color: white;
+        width: 20vw;
+        padding: 1rem 6rem;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+    }
+    .heading{
+        margin-left: -15px;
+        font-size: 3rem;
+        position: relative;
+    }
+    .box{
+        position: relative;
+        font-size: 1.7rem;
+        font-weight: 999;
+        text-align: center;
+        
+    }
+    .stop,.restart{
+        display: inline-block;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        background: #fa2654;
+        padding: 12px 14px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .restart{
+        margin-left: -2px ;
+    }
+    .stop{
+        margin-left: 2px;
+    }
+
+    
+}
+@media (max-width:450px){
+    
+    body{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+    .box{
+        position: relative;
+        font-size: 1.2rem;
+        font-weight: 999;
+        text-align: center;
+        
+    }
+    .stop,.restart{
+        display: inline-block;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 20px;
+        background: #fa2654;
+        padding: 12px 14px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .restart{
+        margin-left: -3px ;
+    }
+    .stop{
+        margin-left: 6px;
+    
+    }
+
+}
+
+       
